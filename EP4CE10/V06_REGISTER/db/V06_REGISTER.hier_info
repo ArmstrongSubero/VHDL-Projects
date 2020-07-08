@@ -1,0 +1,9 @@
+|REG_1_BIT
+load => D.IN0
+load => D.IN1
+inp0 => D.IN1
+clk => q.CLK
+clr => q.ACLR
+q0 <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

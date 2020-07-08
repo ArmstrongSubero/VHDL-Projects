@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jul 04 22:39:11 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : V03_BUZZER
+Top-level Entity Name : V03_BUZZER_SEC
+Family : Cyclone IV E
+Total logic elements : 92
+    Total combinational functions : 92
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

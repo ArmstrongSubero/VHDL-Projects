@@ -1,0 +1,74 @@
+|V04_PWM
+clk => D_FF:stage0.clk
+clk => counter_pwm[0].CLK
+clk => counter_pwm[1].CLK
+clk => counter_pwm[2].CLK
+clk => counter_pwm[3].CLK
+clk => duty_cycle[0].CLK
+clk => duty_cycle[1].CLK
+clk => duty_cycle[2].CLK
+clk => duty_cycle[3].CLK
+clk => counter_slow[0].CLK
+clk => counter_slow[1].CLK
+clk => counter_slow[2].CLK
+clk => counter_slow[3].CLK
+clk => counter_slow[4].CLK
+clk => counter_slow[5].CLK
+clk => counter_slow[6].CLK
+clk => counter_slow[7].CLK
+clk => counter_slow[8].CLK
+clk => counter_slow[9].CLK
+clk => counter_slow[10].CLK
+clk => counter_slow[11].CLK
+clk => counter_slow[12].CLK
+clk => counter_slow[13].CLK
+clk => counter_slow[14].CLK
+clk => counter_slow[15].CLK
+clk => counter_slow[16].CLK
+clk => counter_slow[17].CLK
+clk => counter_slow[18].CLK
+clk => counter_slow[19].CLK
+clk => counter_slow[20].CLK
+clk => counter_slow[21].CLK
+clk => counter_slow[22].CLK
+clk => counter_slow[23].CLK
+clk => counter_slow[24].CLK
+clk => counter_slow[25].CLK
+clk => counter_slow[26].CLK
+clk => counter_slow[27].CLK
+clk => D_FF:stage1.clk
+clk => D_FF:stage2.clk
+clk => D_FF:stage3.clk
+increase_duty_cycle => D_FF:stage0.D
+decrease_duty_cycle => D_FF:stage2.D
+pwm_output <= LessThan4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V04_PWM|D_FF:stage0
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V04_PWM|D_FF:stage1
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V04_PWM|D_FF:stage2
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|V04_PWM|D_FF:stage3
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

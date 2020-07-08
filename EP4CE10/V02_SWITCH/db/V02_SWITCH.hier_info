@@ -1,0 +1,27 @@
+|V02_SWITCH
+data[0] => Equal0.IN9
+data[0] => Equal1.IN9
+data[0] => Equal2.IN9
+data[0] => Equal3.IN9
+data[1] => Equal0.IN8
+data[1] => Equal1.IN8
+data[1] => Equal2.IN8
+data[1] => Equal3.IN8
+data[2] => Equal0.IN7
+data[2] => Equal1.IN7
+data[2] => Equal2.IN7
+data[2] => Equal3.IN7
+data[3] => Equal0.IN6
+data[3] => Equal1.IN6
+data[3] => Equal2.IN6
+data[3] => Equal3.IN6
+data[4] => Equal0.IN5
+data[4] => Equal1.IN5
+data[4] => Equal2.IN5
+data[4] => Equal3.IN5
+leds[0] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= <VCC>
+
+
